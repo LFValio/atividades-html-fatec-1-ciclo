@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h3>Cadastro do Cliente</h3>
+    <form name="formexemplo" method="GET" action="pagina-2.html">
+        <label for="inome">Infome seu nome:</label>
+        <input type="text" name="nome" id="inome"><br>
+        <label for="iendereco">Informe seu endereço:</label>
+        <input type="text" name="endereco" id="iendereco"><br> 
+        <label for="icidade">Informe sua cidade: </label>
+        <input type="text" name="cidade" value="Itapetininga"><br>
+        <label for="iestado1">Informe seu Estado: </label>
+        <select name="estado1" id="iestado1">
+            <option>AC</option>
+            <option>AM</option>
+            <option>ES</option>
+            <option>DF</option>
+            <option>PR</option>
+            <option>SP</option>
+            <option>SC</option>
+            <option>MT</option>
+            <option>RJ</option>
+        </select>
+        <br>
+        <label for="iestado2">Informe seu Estado 2: </label><br>
+        <select name="estado2" id="iestado2" size="5">
+            <option>AC</option>
+            <option>AM</option>
+            <option>ES</option>
+            <option>DF</option>
+            <option>PR</option>
+            <option>SP</option>
+            <option>SC</option>
+            <option>MT</option>
+            <option>RJ</option>
+        </select>
+
+
+        <br><br><input type="reset" name="recarregar" value="Refresh">
+        <input type="submit" name="enviar" value="Enviar">
+    </form> 
+</body>
+</html>
